@@ -1,14 +1,14 @@
 {
-  "name": "@magma-app/magma-design-system-test",
-  "version": "1.0.0",
+  "name": "magma-design-system-test",
+  "version": "1.0.2",
   "private": false,
   "repository": "https://github.com/magma-app/magma-design-system-test",
-  "module": "./dist/magma-magma-design-system-test.es.js",
+  "module": "./dist/magma-design-system-test.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/magma-magma-design-system-test.es.js"
+      "import": "./dist/magma-design-system-test.es.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
@@ -64,6 +64,7 @@
     "vue": "3.3.8"
   },
   "publishConfig": {
-    "@magma-app:registry": "https://npm.pkg.github.com"
+    "@hugo-magma:registry": "https://npm.pkg.github.com",
+    "access": "public"
   }
 }
