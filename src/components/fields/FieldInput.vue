@@ -315,7 +315,7 @@ const updateTextInput = () => {
         !validationDisabled
       "
       class="mt-[3px]"
-      :label="validation.$errors[0]?.$message || errorMessage"
+      :label="validation?.$errors[0]?.$message || errorMessage"
       error
     />
   </div>
